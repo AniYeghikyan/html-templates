@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <title>Cafe</title>
+    <style>
+	     
+        body {
+            margin: 0;
+            padding: 0;
+			  background-color: linen;
+        }
+
+        nav {
+            height: 900px;
+            background: url("image.jpg") no-repeat;
+            background-size: 100%;
+        }
+
+        #navbar {
+            margin: 0;
+            padding: 0;
+            list-style-type: none;
+            width: 117px;
+        }
+
+        #navbar li {
+            border-left: 10px solid #ffcccc;
+            border-bottom: 1px solid #666;
+        }
+
+        #navbar a {
+            background-color: #949494;
+            color: #fff;
+            padding: 5px;
+            text-decoration: none;
+            font-weight: bold;
+            border-left: 5px #ffcccc;
+            display: block;
+        }
+
+        #navbar a:hover {
+            background-color: #666;
+            border-left: 5px solid #ffcccc;
+        }
+
+        .box {
+            width: 100%;
+            height: auto;
+            background-size: 100%;
+            color: white;
+            text-align: center;
+            float: left;
+        }
+
+        .left {
+            width: 50%;
+            height: 600px;
+            background: url("cc-49-of-72.jpg") no-repeat;
+            background-size: cover;
+            float: left;
+        }
+
+        .right {
+            width: 50%;
+            height: 600px;
+            background: gray;
+            float: right;
+            padding: 30px;
+
+        }
+
+        .person {
+            border: 10px solid transparent;
+            margin-bottom: 25px;
+            width: 60%;
+            height: 80%;
+            opacity: 0.7;
+        }
+
+        .person:hover {
+            border-color: #f1f1f1;
+        }
+
+        .container {
+            padding: 80px 120px;
+        }
+
+        @media screen and (max-width: 768px) {
+            .col-sm-4 {
+                text-align: center;
+                margin: 25px 0;
+            }
+        }
+
+        .container-fluid {
+            padding-right: 0;
+            padding-left: 0;
+        }
+
+        .top {
+            margin-top: 500px;
+        }
+
+        .what_we_do {
+            padding-top: 150px;
+            padding-right: 150px;
+            padding-left: 150px;
+        }
+
+        .thumbnail {
+            padding: 0 0 15px 0;
+        }
+
+        .thumbnail img {
+            width: 400px;
+            height: 300px;
+        }
+    </style>
+</head>
+
+<body>
+
+<nav>
+    <ul id="navbar">
+        <li><a href="#">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#what_we_do">What We Do</a></li>
+        <li><a href="#menu">Menu</a></li>
+        <li><a href="#contact">Contact</a></li>
+    </ul>
+</nav>
+<div id="about" class="container-fluid box">
+    <div class="left"></div>
+    <div class="right">
+        <h1>About</h1>
+        <p>Onteger convallis orci vel mi nelaoreet, at ornare lorem consequat. Phasellus era nisl auctor vel veliterol
+            sed,pharetra venenatis nulla.
+            Vestibulum volutpat turpis ut massa commodo, quis aliquam massa facilisis.Integer convallis orci vel mi
+            nelaoreet, at ornare lorem consequat.
+            Phasellus era nisl auctor vel veliterol. sed,pharetra venenatis nulla.
+            Hestibulum volutpat turpis ut massa commodo, quis aliquam massa fertoli estibulum volutpat turpis ut massa
+            commodo.
+            Guis aliquam massa gertoli facilisis.Integer convallis orci vel mi nelaoreet, at ornare lorem consequat.
+            Phasellus
+            era nisl auctor vel veliterol sed,pharetra venenatis nulla.
+            Enteger convallis orci vel mi nelaoreet, at ornare lorem consequat.
+            Phasellus era nisl auctor vel veliterol sed,pharetra venenatis nulla.
+            Vestibulum volutpat turpis ut massa commodo, quis aliquam massa facilisis.
+            Integer convallis orci vel mi nelaoreet, at ornare lorem consequat. Phasellus era nisl auctor vel veliterol.
+            sed,pharetra venenatis nulla.Vestibulum volutpat turpis ut massa commodo, quis aliquam massa fertoli
+            estibulum</p>
+    </div>
+</div>
+
+<div id="what_we_do" class="row text-center top what_we_do">
+    <h1>What We Do</h1>
+    <div class="col-md-4"><img src="large.jpg" class="img-circle person"></div>
+    <div class="col-md-4"><img src="77.jpg" class="img-circle person"></div>
+    <div class="col-md-4"><img src="888.jpg" class="img-circle person"></div>
+</div>
+
+<div id="menu" class="row text-center">
+    <h1>Menu</h1>
+    <div class="col-md-12 text-center">
+        <div class="col-md-4">
+            <div class="thumbnail">
+                <img src="333.jpg">
+                <p><strong>Cake</strong></p>
+                <p>35$</p>
+                <button class="btn" data-toggle="modal" data-target="#myModal">Buy </button>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="thumbnail">
+                <img src="44.jpg">
+                <p><strong>Cake</strong></p>
+                <p>50$</p>
+                <button class="btn" data-toggle="modal" data-target="#myModal">Buy </button>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="thumbnail">
+                <img src="666.jpg">
+                <p><strong>Cake</strong></p>
+                <p>45$</p>
+                <button class="btn" data-toggle="modal" data-target="#myModal">Buy </button>
+            </div>
+        </div>
+
+        <div class="col-md-4">
+            <div class="thumbnail">
+                <img src="56.jpg" alt="Cake">
+                <p><strong>cake</strong></p>
+                <p>75$</p>
+                <button class="btn">Buy</button>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="thumbnail">
+                <img src="8.jpg" alt="Cake">
+                <p><strong>Cake</strong></p>
+                <p>60$</p>
+                <button class="btn">Buy</button>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="thumbnail">
+                <img src="32.jpg" alt="Cake">
+                <p><strong>Cake</strong></p>
+                <p>30$</p>
+                <button class="btn">Buy</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!-- Container (Contact Section) -->
+<div class="container" id="contact">
+    <h3 class="text-center">Contact</h3>
+    <p class="text-center"><em>We love our fans!</em></p>
+    <div class="row test">
+        <div class="col-md-4">
+            <p>Fan? Drop a note.</p>
+            <p><span class="glyphicon glyphicon-map-marker"></span>Chicago, US</p>
+            <p><span class="glyphicon glyphicon-phone"></span>Phone: +00 1515151515</p>
+            <p><span class="glyphicon glyphicon-envelope"></span>Email: mail@mail.com</p>
+        </div>
+        <div class="col-md-8">
+            <div class="row">
+                <div class="col-sm-6 form-group">
+                    <input class="form-control" id="name" name="name" placeholder="Name" type="text"
+                           required>
+                </div>
+                <div class="col-sm-6 form-group">
+                    <input class="form-control" id="email" name="email" placeholder="Email" type="email"
+                           required>
+                </div>
+            </div>
+            <textarea class="form-control" id="comments" name="comments" placeholder="Comment"
+                      rows="5"></textarea>
+            <div class="row">
+                <div class="col-md-12 form-group">
+                    <button class="btn pull-right" type="submit">Send</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
